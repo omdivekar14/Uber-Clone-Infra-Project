@@ -94,11 +94,14 @@ Below are the screenshots showing successful deployment.
 
 | Component | Screenshot |
 |----------|------------|
-| **VPC with Subnets & Routing** | ![VPC](images/vpc.png) |
-| **Target Group (Healthy Instances)** | ![Target Group](images/target-group.png) |
-| **Load Balancer → Browser Output** | ![App Output](images/app.png) |
-| **EC2 Auto Scaling Group Instances** | ![EC2 Instances](images/ec2.png) |
-| **Terraform Apply Output** | ![Terraform Output](images/terraform-output.png) |
+| **VPC with Subnets & Routing** | <img width="1919" height="828" alt="Screenshot 2025-11-20 235913" src="https://github.com/user-attachments/assets/8451bb8a-f436-4217-9992-e453fef6a24c" /> |
+| **Target Group (Healthy Instances)** | <img width="1919" height="830" alt="Screenshot 2025-11-20 235610" src="https://github.com/user-attachments/assets/95684795-92f8-4b56-b811-3ac8e939c612" />
+| **Application Load Balancer** | <img width="1918" height="598" alt="Screenshot 2025-11-21 011006" src="https://github.com/user-attachments/assets/a1bda4da-7b5b-4777-9449-7f8b671a6317" />
+| **Load Balancer → Browser Output** | [App Output]<img width="1309" height="482" alt="Screenshot 2025-11-20 235458" src="https://github.com/user-attachments/assets/2839dd03-be09-40dd-bc17-038485dabdad" />
+| **EC2 Auto Scaling Group Instances** | <img width="1918" height="458" alt="Screenshot 2025-11-20 234057" src="https://github.com/user-attachments/assets/95e48755-a61c-4c3a-8e2a-e0d42ee1e94a" />
+| **Auto Scaling Group** | <img width="1919" height="827" alt="Screenshot 2025-11-21 011242" src="https://github.com/user-attachments/assets/23bc51ad-cc4b-4595-a339-992d925b60a7" />
+| **Terraform Apply Output** | <img width="1278" height="249" alt="Screenshot 2025-11-21 002756" src="https://github.com/user-attachments/assets/1ebf550b-b733-4ca9-a808-8a479cd6f8ae" />
+| **RDS with replica** |  <img width="1919" height="512" alt="Screenshot 2025-11-21 010650" src="https://github.com/user-attachments/assets/03dabc77-f280-4d04-8f98-60cef3c9bc64" />
 
 ---
 
