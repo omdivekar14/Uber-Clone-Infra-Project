@@ -95,6 +95,7 @@ Below are the screenshots showing successful deployment.
 | Component | Screenshot |
 |----------|------------|
 | **VPC with Subnets & Routing** | <img width="1919" height="828" alt="Screenshot 2025-11-20 235913" src="https://github.com/user-attachments/assets/8451bb8a-f436-4217-9992-e453fef6a24c" /> |
+| **NAT Gateway** | <img width="1919" height="617" alt="Screenshot 2025-11-21 013130" src="https://github.com/user-attachments/assets/82765923-501e-49d0-b947-29f05e502027" />
 | **Target Group (Healthy Instances)** | <img width="1919" height="830" alt="Screenshot 2025-11-20 235610" src="https://github.com/user-attachments/assets/95684795-92f8-4b56-b811-3ac8e939c612" />
 | **Application Load Balancer** | <img width="1918" height="598" alt="Screenshot 2025-11-21 011006" src="https://github.com/user-attachments/assets/a1bda4da-7b5b-4777-9449-7f8b671a6317" />
 | **Load Balancer → Browser Output** | [App Output]<img width="1309" height="482" alt="Screenshot 2025-11-20 235458" src="https://github.com/user-attachments/assets/2839dd03-be09-40dd-bc17-038485dabdad" />
