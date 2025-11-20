@@ -1,0 +1,28 @@
+#!/bin/bash
+set -e
+
+# Update and install nginx
+yum update -y || true
+amazon-linux-extras install -y nginx1 || yum install -y nginx -y
+systemctl enable nginx
+systemctl start nginx
+
+# Fetch metadata values BEFORE writing HTML
+INSTANCE_ID=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
+LOCAL_IP=$(curl -s http://169.254.169.254/latest/meta-data/local-ipv4)
+
+# Render index.html
+cat <<EOF >/usr/share/nginx/html/index.html
+<html>
+  <head><title>Welcome</title></head>
+  <body>
+    <h1>${index_message}</h1>
+    <p>Instance ID: INSTANCE_ID_HERE</p>
+    <p>Local IP: LOCAL_IP_HERE</p>
+  </body>
+</html>
+EOF
+
+# Replace placeholders
+sed -i "s/INSTANCE_ID_HERE/$INSTANCE_ID/" /usr/share/nginx/html/index.html
+sed -i "s/LOCAL_IP_HERE/$LOCAL_IP/" /usr/share/nginx/html/index.html
